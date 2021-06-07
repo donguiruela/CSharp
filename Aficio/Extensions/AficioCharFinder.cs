@@ -1,4 +1,4 @@
-namespace Aficio                                                    {            
+namespace Aficio                                                        {            
     public static class AficioFinder                                    {
         public static string GetMissingLetters(this string value)       {
             const int EN_ALPHA_MAX = 26                                 ;
