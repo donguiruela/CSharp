@@ -16,5 +16,4 @@ namespace Aficio
                         output[index] += row[column]                              ;}
                     if (!column.Equals(lastcol)) output[index] += delimiter       ;}
                 index++                                                           ;}
-            return output                                                         ;}        
-                                                                                  }}
+            return output                                                         ;}}}

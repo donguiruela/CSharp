@@ -22,6 +22,9 @@ namespace Aficio
             {
                 Console.WriteLine(a);
             }
+
+            string axe = "az";
+            Console.WriteLine(axe.GetMissingLetters());
         }
     }
 }
