@@ -8,3 +8,4 @@ For the record.
 
 Supported:
 1. DataTable to CSV
+2. CHARFinder LOL
