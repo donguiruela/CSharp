@@ -1,6 +1,6 @@
 # CSharp
 
-For the record.
+For the record, I made this repository to store:
 
 # Extensions
 
