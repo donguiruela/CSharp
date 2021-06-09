@@ -8,4 +8,5 @@ For the record, I made this repository to store:
 
 Supported:
 1. DataTable to CSV
-2. CHARFinder LOL
+
++ AficioCharFinder
