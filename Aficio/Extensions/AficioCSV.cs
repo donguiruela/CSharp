@@ -1,5 +1,4 @@
-namespace Aficio
-{
+namespace Aficio                                                                  {
     using System.Data                                                             ;
     public static class AficioCSV                                                 {
         public static string delimiter = ","                                      ;
