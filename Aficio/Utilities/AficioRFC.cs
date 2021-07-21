@@ -15,8 +15,8 @@ public class RFC_AficioVersion                            {       //Rail Fence C
           isInverted = false                              ;}        
         r = isInverted ? --rI : ++rI                      ;        
         rawCipher[r, c] = s[place++]                      ;}       
-        for (int i = 0; i < n; i++)                        {
-          for (int j = 0; j < s.Length; j++)                {
-            encodedString += rawCipher[i,j].ToString()     ;}}}
+        for (int i = 0; i < n; i++)                       {
+          for (int j = 0; j < s.Length; j++)              {
+            encodedString += rawCipher[i,j].ToString()    ;}}}
      return encodedString.Replace("\0", string.Empty)     ;}}}
      
