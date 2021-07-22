@@ -13,5 +13,5 @@ public class RFC_AficioVersion                            {       //Rail Fence C
         rawCipher[r, c] = s[c]                            ;}                               
         for (int i = 0; i < n; i++)                       {
           for (int j = 0; j < s.Length; j++)              {
-            encodedString += rawCipher[i,j].ToString()    ;}}}
+            encodedString += rawCipher[i, j].ToString()    ;}}}
      return encodedString.Replace("\0", string.Empty)     ;}}}
