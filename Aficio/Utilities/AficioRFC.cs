@@ -7,10 +7,8 @@ public class RFC_AficioVersion                            {       //Rail Fence C
        bool isInverted = false                            ;
        int r = 0, rDirection = -1                         ;        
        for (int c = 0; c < s.Length; c++)                 {         
-        if(rDirection == n-1)                             {
-          isInverted = true                               ;}
-        if (rDirection == 0)                              {
-          isInverted = false                              ;}
+        if(rDirection == n-1) isInverted = true           ;
+        if (rDirection == 0) isInverted = false           ;
         r = isInverted ? --rDirection : ++rDirection      ;
         rawCipher[r, c] = s[c]                            ;}                               
         for (int i = 0; i < n; i++)                       {
