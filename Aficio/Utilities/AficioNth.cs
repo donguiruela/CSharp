@@ -10,12 +10,12 @@ namespace Aficio
         public string Name { get; set; }
     }
 
-    public class AficioNth
+    public static class AficioNth
     {
         //_names eg. "Lucas,Mario,Harold"
         //_weight eg. [1, 4, 2]
         //_winNumber 2
-        public static string NthRank(string _names, int[] _weight, int _winNumber)
+        public static string GetWinnerByNthRank(string _names, int[] _weight, int _winNumber)
         {
             if (_names.Length == 0) return "NO PARTICIPANTS";
             if (_weight.Length < _winNumber || _winNumber - 1 < 0) return "NOT ENOUGH PARTICIPANTS";
