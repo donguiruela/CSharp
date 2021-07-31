@@ -10,7 +10,7 @@ namespace Aficio
         public string Name { get; set; }
     }
 
-    public static class AficioNth
+    public static class AficioRaffle
     {
         //_names eg. "Lucas,Mario,Harold"
         //_weight eg. [1, 4, 2]
