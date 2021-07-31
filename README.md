@@ -10,3 +10,9 @@ For the record, I made this repository to store:
   1. DataTable to CSV
 
 + AficioCharFinder
+
+# Utilities
+
++ AficioNth
++ AficioArcParabola
++ AficioRFC
