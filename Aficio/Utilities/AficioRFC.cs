@@ -5,18 +5,13 @@ public class RFC_AficioVersion                            {       //Rail Fence C
      if(n >= 2 && s.Length > 0)                           {
        char[,] rawCipher = new char[n , s.Length]         ;
        bool isInverted = false                            ;
-       int place = 0, r = 0, rI = -1, c = 0               ;       
-       while (place < s.Length)                           {
-        if(rI == n-1)                                     {
-          c++                                             ;
-          isInverted = true                               ;}
-        if (rI == 0)                                      { 
-          c++                                             ; 
-          isInverted = false                              ;}        
-        r = isInverted ? --rI : ++rI                      ;        
-        rawCipher[r, c] = s[place++]                      ;}       
+       int r = 0, rDirection = -1                         ;        
+       for (int c = 0; c < s.Length; c++)                 {         
+        if(rDirection == n-1) isInverted = true           ;
+        if (rDirection == 0) isInverted = false           ;
+        r = isInverted ? --rDirection : ++rDirection      ;
+        rawCipher[r, c] = s[c]                            ;}                               
         for (int i = 0; i < n; i++)                       {
           for (int j = 0; j < s.Length; j++)              {
-            encodedString += rawCipher[i,j].ToString()    ;}}}
+            encodedString += rawCipher[i, j].ToString()    ;}}}
      return encodedString.Replace("\0", string.Empty)     ;}}}
-     
